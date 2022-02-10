@@ -2237,7 +2237,7 @@ input, select, textarea {
 					}
 
 			#main > section.cover {
-				padding: 4em 0;
+				padding: 4em 0;                                 /* section height */
 				background-size: cover;
 				background-position: center center;
 			}
