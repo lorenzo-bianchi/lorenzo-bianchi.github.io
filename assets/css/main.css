@@ -72,6 +72,8 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+
 /* Basic */
 
 	html {
@@ -1754,16 +1756,10 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.image.avatar48 {
-			width: 48px;
-			height: 48px;
-			background: #f00;
+		.image.avatar48 img {
+			width: 62px;
+			height: 62px;
 		}
-
-			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
-			}
 
 		.image.fit {
 			display: block;
@@ -2241,7 +2237,7 @@ input, select, textarea {
 					}
 
 			#main > section.cover {
-				padding: 10em 0;
+				padding: 4em 0;
 				background-size: cover;
 				background-position: center center;
 			}
