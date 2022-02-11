@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Lorenzo Bianchi</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" typr="text/css" href="assets/css/pic_style.css" />
+		<link rel="stylesheet" typr="text/css" href="assets/css/lightbox.min.css" />
+		<script src="assets/js/lightbox-plus-jquery.min.js"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="intro">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/lore2.jpg" alt="" /></span>
+							<h1 id="title">Lorenzo Bianchi</h1>
+							<p>Robotics Engineer<br>Photographer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+							    <li><a href="index.html#intro" id="introlink"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="index.html#projects" id="projects-link"><span class="icon solid fa-cogs">Projects</span></a></li>
+								<li><a href="index.html#photography" id="photography-link"><span class="icon solid fa-camera">Photography</span></a></li>
+								<li><a href="index.html#about" id="about-link"><span class="icon solid fa-user">More About Me</span></a></li>
+								<li><a href="index.html#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/lorenzo.bianchi.10" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/lore.bnc/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/lorenzo-bianchi" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.linkedin.com/in/lorenzo-bianchi-5695a3170/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+			
+			    <!-- Intro -->
+					<section id="stewart" class="two">
+						<div class="container">
+							<header>
+								<h2><em>Realization of a 3D printer plate based on 6-DOF Stewart platform</em></h2>
+							</header>
+
+							
+							<p>Aim of this project was to design and build a plate for 3D printers using a 6-DOF rotary Stewart platform.
+								Such plate will be able to not only translate along x, y and z axes, but also perform roll, pitch and yaw rotations,
+								in order to reduce the use of supports for parts without proper layers under them.
+								<br><br>
+								In order to obtain steep inclination angles, magnets were used instead of normal rod ends.
+								<br><br>
+								The figure below depicts the roadmap with all the steps of the project.
+							</p>
+								
+							<img src="images/stewart_graph.png" loop=infinite />
+
+							<section>
+									<h1><br>Step 1: <em>Mathematica</em></h1>
+									<p>Mathematica symbolic calculus was a helpful tool to compute platform inverse kinematics closed form.
+										The combination between symbolic and closed form equations lets you change platform parameters 
+										without the need to evaluate solutions many times, in order to easily simulate different configurations.</p>
+
+									<div class="gallery">
+										<a href="images/stewart1.gif" data-lightbox="mygallery"><img src="images/stewart1.gif" loop=infinite width=300 height=300/></a>
+										<a href="images/stewart2.gif" data-lightbox="mygallery"><img src="images/stewart2.gif" loop=infinite width=300 height=300/></a>
+										<a href="images/stewart4.gif" data-lightbox="mygallery"><img src="images/stewart4.gif" loop=infinite width=300 height=300/></a>
+									</div>
+
+							</section>
+
+							<section>
+								<h1>Step 2: <em>Creo Parametric</em></h1>
+								<p>Creo Parametric was used as 3D modeling program and every single piece was designed and drawn.
+									<br>The physical realization of all parts were performed using two kinds of CNCs, a wood laser 
+										cutter and three 3D printers with different extruders sizes.</p>
+							</section>
+
+							<section>
+								<h1>Step 3: electronics</h1>
+								<p>The electronics consists of an external power supply, an Arduino UNO board, a 680μF capacitor and a servo shield. 
+									This last component is directly connected to six "monster torque" servo motors.
+									<br><br>
+									Below is the Stewart platform final prototype.
+								</p>
+
+								<img src="images/stewart.jpg" loop=infinite width=500/>
+							</section>
+
+							<section>
+								<h1>Step 4: coding</h1>
+								<p>Code consists of two interconnected scripts: the one running on PC is written in Python, while the other in C, as it has to run on Arduino. 
+									They are connected each other through a serial port and exchange data.
+									<br><br>
+									Python code has to initialize the connection with Arduino and, once established, it reads desired values for coupler, computes 
+									angles values and PWM frequency and sends them to Arduino. 
+									<br> Then waits for a reply to know that all was fine during communication.
+									<br><br>
+									Arduino at first waits for connection, receives frequencies values and transmits them to motors. 
+									<br>Lastly it sends a reply to Python code as a feedback.</p>
+							</section>
+
+							<section>
+								<h1>Step 5: trajectory planning</h1>
+								<p>The main idea behind platform trajectory planning is to exploit all 6 DOF in order to facilitate, by translating and rotating the plate, 
+									the printing of pieces with undercuts, for example a truncated cone from the minor to the major base.</p>
+
+									<img src="images/stewart3.gif" loop=infinite width=500 height=500/>
+
+									<iframe width="890" height="500"
+										src="https://www.youtube.com/embed/bsmvkn0fdN0">
+									</iframe>
+							</section>
+
+							<section>
+								<h1>Extra: PS3 SIXAXIS</h1>
+								<iframe width="890" height="500"
+									src="https://www.youtube.com/embed/G8-V93Fnt6M">
+								</iframe>
+							</section>
+
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
