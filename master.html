@@ -93,17 +93,78 @@
 							</p>
 
 							<section>
-								<h1><br><span style="font-weight: bold">Basic optimum problem</span></h1>
-								<p>Both control system and planner are based on a Model Predictive Contouring Control (MPCC), a particular kind of 
+								<h1><br><span style="font-weight: bold">Optimization problem</span></h1>
+								<p> Both control system and planner are based on a Model Predictive Contouring Control (MPCC), a particular kind of 
 									predictive control used to follow a reference curve parametrized by arc length <em>&theta; &isin; <span style="font-weight: bold">[0, L]</span></em>, with L the 
 									total circuit length.
 									<br><br>
+									All MPCCs find the input signals to apply to the system by solving an optimization problem: in this case the objective function is 
+									about maximizing the space travelled and minimizing the distance errors between the real car and a virtual point moving along the
+									center line of the track, whose velocity is a variable of the problem. The constraints deal with state variables admissible range, 
+									circuit border and car nonlinear dynamics.
+									<br><br>
+									In order to use this controller in a (soft) real-time environment, it is necessary to transform this highly nonlinear problem into a
+									simpler one consisting of a quadratic objective function and linear constraints, so that it can be solved by a quadratic solver.  
+								</p>
+							</section>
+
+							<section>
+								<h1><span style="font-weight: bold">Control system</span></h1>
+								<p> The control algorithm works exactly as a normal MPC: at each sampling time it solves the quadratic problem on a fixed time horizon and 
+									uses only the first computed input to drive the car, discarding the other ones and repeating the whole process at the following time.
 								</p>
 
-								<div class="gallery">
-									<a href="images/stewart1.gif" data-lightbox="mygallery"><img src="images/stewart1.gif" loop=infinite width=300 height=300/></a>
-									<a href="images/stewart2.gif" data-lightbox="mygallery"><img src="images/stewart2.gif" loop=infinite width=300 height=300/></a>
-									<a href="images/stewart4.gif" data-lightbox="mygallery"><img src="images/stewart4.gif" loop=infinite width=300 height=300/></a>
+								<div class="gallery2">
+									<a href="images/control.gif" data-lightbox="mygallery"><img src="images/control.gif" loop=infinite width=600/></a>
+									<a href="images/control_traj.png" data-lightbox="mygallery"><img src="images/control_traj.png" width=400/></a>
+									<a href="images/control_vel.png" data-lightbox="mygallery"><img src="images/control_vel.png" width=400/></a>
+								</div>
+							</section>
+
+							<section>
+								<h1><span style="font-weight: bold">Trajectory planner</span></h1>
+								<p> The trajectory planner is completely based on the control system. The main difference is that the latter has equations 
+									which are function of time, hence the prediction performed by the model is a fixed time in the future. On the other hand,
+									planner equations are function of the coordinate <em>&theta;</em>, predicting the behaviour of the system in the following meters.
+									<br><br>
+									It is therefore possible to set a prediction distance equal to the circuit length, in order to compute the best trajectory
+									on a whole lap. The last modification consists of imposing the equality between initial and final state as a new constraint 
+									of the problem, so that it is independent of the starting conditions of the car.
+								</p>
+
+								<div class="gallery2">
+									<a href="images/planning.gif" data-lightbox="mygallery"><img src="images/planning.gif" loop=infinite width=600/></a>
+								</div>
+
+								<p> As it is possible to see in the upper GIF, the algorithm starts with the center line as the first guess and, step by step, it 
+									improves the trajectory until it finds the one with the lowest travel time.
+								</p>
+
+								<div class="gallery2">
+									<a href="images/mycircuit_best_traj.png" data-lightbox="mygallery"><img src="images/mycircuit_best_traj.png" height=300/></a>
+									<a href="images/mycircuit_best_vel.png" data-lightbox="mygallery"><img src="images/mycircuit_best_vel.png" height=300/></a>
+								</div>
+
+							</section>
+
+							<section>
+								<h1><span style="font-weight: bold">Overtakes</span></h1>
+								<p> Overtakes are just permitted in predefined track sectors and only if the opposing car is in a certain range. The cars 
+									involved in the overtake must run across the sides of the track without interfering each other.
+								</p>
+
+								<div class="gallery2">
+									<a href="images/overtake.gif" data-lightbox="mygallery"><img src="images/overtake.gif" loop=infinite width=600/></a>
+								</div>
+
+								<p> The trajectory planner was also used to compute the variations from the main trajectory in order to perform these actions, 
+									with the constraint to return on it at the end of the overtake.
+								</p>
+
+								<div class="gallery2">
+									<a href="images/var_berlin.png" data-lightbox="mygallery"><img src="images/var_berlin.png" width=800/></a>
+									<a href="images/var_berlin1.png" data-lightbox="mygallery"><img src="images/var_berlin1.png" height=300/></a>
+									<a href="images/var_berlin2.png" data-lightbox="mygallery"><img src="images/var_berlin2.png" height=300/></a>
 								</div>
 
 							</section>
