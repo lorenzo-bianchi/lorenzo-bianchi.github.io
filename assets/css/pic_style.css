@@ -2,10 +2,6 @@
     margin: 10px 10px;
 }
 
-.gallery2 a{
-    margin: 0 20px;
-}
-
 .gallery img {
     transition: 1s;
     padding: 20px;
@@ -31,7 +27,7 @@ a {
 
 figure {
     display: inline-block;
-    margin: 10px;
+    margin: 10px 10px;
 }
 
 figure img {

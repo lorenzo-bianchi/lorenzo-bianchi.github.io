@@ -1,40 +1,78 @@
+<a href="images/reflex/DSC_5712-7.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_5712-7.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_6957.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_6957.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_7758.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_7758.resized.jpg" width="300" height="300"></a>
+
+<a href="images/reflex/DSC_5094.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_5094.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_8236.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_8236.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_0695.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_0695.resized.jpg" width="300" height="300"></a>
+
 <a href="images/reflex/DSC_1466.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_1466.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_00733.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_00733.resized.jpg" width="300" height="300"></a>
-
 <a href="images/reflex/DSC_0026.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_0026.resized.jpg" width="300" height="300"></a>
+
 <a href="images/reflex/DSC_9874.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_9874.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_1324srgb.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_1324srgb.resized.jpg" width="300" height="300"></a>
-
 <a href="images/reflex/DSC_6961.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_6961.resized.jpg" width="300" height="300"></a>
-<a href="images/reflex/DSC_2466-5.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_2466-5.resized.jpg" width="300" height="300"></a>
-<a href="images/reflex/DSC_1680.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_1680.resized.jpg" width="300" height="300"></a>
 
+<a href="images/reflex/DSC_6952.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_6952.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_8023-Pano-Modifica.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_8023-Pano-Modifica.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_2466-5.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_2466-5.resized.jpg" width="300" height="300"></a>
+
+<a href="images/reflex/DSC_1680.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_1680.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_0763.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_0763.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_4576.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_4576.resized.jpg" width="300" height="300"></a>
+
 <a href="images/reflex/DSC_0709.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_0709.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_1613-HDR-4.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_1613-HDR-4.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_7036.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_7036.resized.jpg" width="300" height="300"></a>
 
 <a href="images/reflex/DSC_13921.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_13921.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_7066.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_7066.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_9780.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_9780.resized.jpg" width="300" height="300"></a>
-<a href="images/reflex/DSC_29972.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_29972.resized.jpg" width="300" height="300"></a>
 
+<a href="images/reflex/DSC_9093.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_9093.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_29972.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_29972.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_4746.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_4746.resized.jpg" width="300" height="300"></a>
+
+<a href="images/reflex/DSC_2698.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_2698.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_2961.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_2961.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_5618-Pano.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_5618-Pano.resized.jpg" width="300" height="300"></a>
+
+<a href="images/reflex/DSC_6445-3.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_6445-3.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_0768.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_0768.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_8772.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_8772.resized.jpg" width="300" height="300"></a>
 
+<a href="images/reflex/DSC_3679.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_3679.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_6975.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_6975.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_57127.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_57127.resized.jpg" width="300" height="300"></a>
-<a href="images/reflex/DSC_0022.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_0022.resized.jpg" width="300" height="300"></a>
 
+<a href="images/reflex/DSC_0022.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_0022.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_0954.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_0954.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_4595.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_4595.resized.jpg" width="300" height="300"></a>
-<a href="images/reflex/DSC_07982.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_07982.resized.jpg" width="300" height="300"></a>
 
+<a href="images/reflex/DSC_07982.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_07982.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_3981.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_3981.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_5092.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_5092.resized.jpg" width="300" height="300"></a>
+
 <a href="images/reflex/DSC_0005.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_0005.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_7789-3.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_7789-3.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_8226.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_8226.resized.jpg" width="300" height="300"></a>
 
+<a href="images/reflex/DSC_4149-Modifica-2-Modifica.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_4149-Modifica-2-Modifica.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_0263.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_0263.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_5386-Pano-6.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_5386-Pano-6.resized.jpg" width="300" height="300"></a>
+
 <a href="images/reflex/DSC_0080.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_0080.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_8220.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_8220.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_6048-Modifica.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_6048-Modifica.resized.jpg" width="300" height="300"></a>
+
+<a href="images/reflex/DSC_5328.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_5328.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_8401.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_8401.resized.jpg" width="300" height="300"></a>
 <a href="images/reflex/DSC_2209.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_2209.resized.jpg" width="300" height="300"></a>
 
+<a href="images/reflex/DSC_5024.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_5024.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_3178-Modifica-2-2.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_3178-Modifica-2-2.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_3737.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_3737.resized.jpg" width="300" height="300"></a>
+
+<a href="images/reflex/DSC_6558.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_6558.resized.jpg" width="300" height="300"></a>
+<a href="images/reflex/DSC_6487-Modifica.jpg" data-lightbox="mygallery" data-title="..."><img src="images/reflex/resized/DSC_6487-Modifica.resized.jpg" width="300" height="300"></a>
