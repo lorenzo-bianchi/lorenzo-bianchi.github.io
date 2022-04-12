@@ -2285,12 +2285,14 @@ input, select, textarea {
 
 			#footer {
 				margin-left: 400px;
+				margin-right: 20px;
 			}
 
 		/* Main */
 
 			#main {
 				margin-left: 400px;
+				margin-right: 20px;
 			}
 
 	}
